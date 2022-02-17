@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input types</title>
+</head>
+<body>
+    
+        <div>
+            <form>
+                <div>
+                    <label>Name</label>
+                    <input name="login user name" required minlength="5" maxlength="10" size="10" placeholder="login user name>"
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            
+            <div>
+                <label>Password</label>
+                <input id="Password" type=""Password" pattern="*[A-Za-z*]*[0-9][A-zA-z]*"
+                title="'Password must begin with letter and contain at least one digit"/>
+            </div>
+            <div>
+                <label>
+                    Email id
+                </label>
+                <input title="enter email" id="email"type="email"/>
+            </div>
+            <div>
+                <label>Photo</label>
+                <input placeholder="file" id="file" type="file" aaccept="audio/*,video/*,image/*/>
+            </div>
+            <div>
+                <input type="submit">
+        </div>
+        <div>
+            <label>DOB</label>
+            <input title="enter your date of birth" id="date" type="date"/>
+            <input title="enter  date and time" id="datetime-local" type="datetime-local"/>
+            <input title="enter time here" id="time" type="time"/>
+            <input title="enter the week of the year" id="week" type="week"/>
+            <input title="status" id="color" type="color"/>
+        </div>
+        <div>
+            <label>
+                telephone
+            </label>
+            <input type="tel" name="'telid" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+            placeholder="123-456-678"/>
+        </div>
+        <div>
+            <label>Hobbies</label>
+            <input title="hobby" type="checkbox" checked=true name="items" value="Reading">reading</input>
+            <input title="option1" type="checkbox"  name="items" value="Music">Music</input>
+            <input title="option2" type="checkbox"  name="items" value="Dance">Dance</input>
+        </div>
+        <div>
+            <label>hidden content</label>
+            <input id="hid" type="hidden"/>
+        </div>
+        <div>
+            <label>Url</label>
+            <input id="url" type="url"/>
+        </div>
+        <div>
+            <label>comments</label>
+            <textarea id="comment" cols="50" rows="5"/> comments</textarea>
+        </div>
+        <div>
+            <label>select course</label>
+            <select name="course list" title="Select a course">
+                <option selected>---select a value---</option>
+                <option>Html</option>
+                <option>java</option>
+                <option>Bootstrap</option>
+                <optgroup label="database">
+                    <option>SQL</option>
+                    <option>Oracle</option>
+                    <option>MYSQL</option>
+               </optgroup>
+            </select>
+        </div>
+        <div>
+           <input type="submit"/>
+           <input type="reset" value="reset"/>
+           <input type="image" alt="close" name="close" width="25" height="25" src="../../images/close.jpg"/>
+        </div>
+</body>
+</html>
