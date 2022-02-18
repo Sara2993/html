@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <heading>
+        <h1>Html semantic elements</h1>
+    </heading>
+    <header>
+        <h1>header sample</h1>
+        <img src="../images/h.jpg.jpg" alt="HTML5 logo" height="50">
+    </header>
+    <nav>
+        <ol>
+            <li class="crumb"><a href="read.html">read</a></li>
+        </ol>
+    </nav>
+    <main>
+        <header>
+            <p>i am anisha</p>
+        <p>i like green grapes</p>
+        </header>
+    </main>
+    <section>
+        <h2>section1:introduction</h2>
+        <p>hai hellow</p>
+    </section>
+    <article>
+        <header>
+            <h2>india t20 with west indian</h2>
+        </header>
+        <p>T20 World Cup India Squad 2021 Indian Team Playing 11 will be discussed here. There are 15 players selected for the T20 World Cup by the BCCI. Shikhar Dhawan and Yuzvendra Chahal were dropped from the side, which is quite fascinating. In his new role as a mentor, MS Dhoni is returning to cricket. The complete list can be found here. Today or tomorrow, the BCCI selection committee led by Chetan Sharma will convene at its HQ in Mumbai and meet with skipper Virat Kohli in Manchester and coach Ravi Shastri in London.</p>
+    <aside>meeting
+        <p>@</time>10am</time></p>
+            <P>in chennai</P>
+            <p>on:<datetime>feb 19th</datetime></p>
+            <P>lunch will be provided</p>
+            </aside>
+            <h1>how to be a wizard</h1>
+            <ol>
+                <li>grow a long majestic beard</li>
+                <li>wear a tall pointed hat</li>
+                <li>have a mentioned the beared?</li>
+            </ol>
+            <footer>
+                <P>@2018 gandalf</P>
+            </footer>
+            <footer><p>@2033 footer </date>content to be displayed</p></footer>
+        </article>
+        <header>
+            <h1>
+                form sample
+            </h1>
+            </header>
+            <div>
+            <form method="post">
+                <div>
+                    <label>message</label>
+                    <input title="enter a message" id="msg"/>
+                    <button type="submit" class="bin">create</button>
+                </div>
+                <div>
+                    based64 encoded test:
+                    <label id="msg1"></label>
+                </div>
+            </form>
+        </div>
+        <script>
+            document.querySelector('form').addEventListener( 'submit', event => 
+			{
+				event.preventDefault();
+				const input = document.querySelector('#msg');
+				const encrypted = btoa(input.value);
+				const node_label = document.querySelector('#msg1');
+				node_label.innerHTML = encrypted;				
+			} ) ;
+        </script>
+        
+</body>
+</html>
