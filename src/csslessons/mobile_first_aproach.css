@@ -176,7 +176,7 @@
   
   @media (min-width: 700px) {
     body {
-      background: url("../images/bg-desktop.png"), var(--color-very-dark-blue);
+      background: url("../../images/bg-desktop.png"), var(--color-very-dark-blue);
       background-repeat: no-repeat;
       background-size: contain;
       background-position-y: 300px;
