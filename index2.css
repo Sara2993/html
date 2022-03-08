@@ -1,9 +1,10 @@
 :root{
-    --Bright-orange: hsl(31, 88%, 90%);
-    --Dark-cyan: hsl(185, 56%, 87%);
-    --Very-dark-cyan: hsl(180, 1%, 45%);
-    --Transparent-white : hsla(0, 72%, 37%, 0.75);
-    --Very-light-gray : hsl(0, 7%, 14%);
+    --Bright-orange: hsl(32, 20%, 61%);
+    --Dark-cyan: hsl(185, 55%, 77%);
+    --Very-dark-cyan: hsl(180, 29%, 53%);
+    --Transparent-white : rgba(5, 1, 1, 0.75);
+    --Transparent-white2 : hsla(0, 89%, 7%, 0.548);
+    --Very-light-gray : hsl(261, 96%, 21%);
     }
     
     *{
@@ -20,10 +21,14 @@
         font-family: "Lexend Deca", sans-serif;
     
     }
-    
-    h3{
+    h1{
+        display: none;
+    }
+    h2{
         font-family: "Big Shoulders Display",sans-serif;
         font-size: 30px;
+        text-transform: uppercase;
+    
     }
     
     p{
@@ -32,27 +37,28 @@
     }
     
     .btn{
-        background-color: var(--Very-light-gray);
+        
         border: 2px solid #fff;
         border-radius: 30px;
         padding: 15px 20px;
         cursor: pointer;
-        transition: all 0.4s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        text-decoration: none;
+        background-color: var(--Very-light-gray);
+        
     }
     
+    .btn:hover{
+        background-color: var(--Transparent-white2);
+        color:transparent;
+    }
     .bright_orange{
         background-color: var(--Bright-orange);
         color:var(--Transparent-white);
         border-radius: 10px 10px 0px 0px;
     }
-    
     .bright_orange .btn{
-        color: var(--Bright-orange);
-    }
-    
-    .bright_orange .btn:hover{
-        background-color: var(--Bright-orange);
-        color:var(--Transparent-white)
+        color:var(--Bright-orange);
     }
     
     .dark_cyan{
@@ -64,9 +70,8 @@
         color: var(--Dark-cyan);
     }
     
-    .dark_cyan .btn:hover{
-        background-color: var(--Dark-cyan);
-        color:var(--Transparent-white)
+    .very_dark_cyan .btn{
+        color:var(--Very-dark-cyan)
     }
     
     .very_dark_cyan{
@@ -75,17 +80,9 @@
         border-radius: 0px 0px 10px 10px;
     }
     
-    .very_dark_cyan .btn{
-        color: var(--Very-dark-cyan);
-    }
-    
-    .very_dark_cyan .btn:hover{
-        background-color: var(--Very-dark-cyan);
-        color:var(--Transparent-white)
-    }
-    
     .container{
-        padding:20px
+        padding:20px;
+        max-width: 100%;
     }
     
     .card{
@@ -113,6 +110,7 @@
     .attribution a {
         color: hsl(228, 45%, 44%);
         transition: all 0.4s ease;
+        text-decoration: none;
     }
     .attribution a:hover{
         color: lightblue;
@@ -141,4 +139,3 @@
         }
         
     }
-   
