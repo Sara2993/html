@@ -107,7 +107,7 @@
       opacity: 0.7;
   }  
   .bg-curve::before {
-      background-image: url(images/bg-curve-mobile.svg);
+      background-image: url(../images/bg-curve-mobile.svg);
       background-repeat: no-repeat;
       background-size: cover;
       content: "";
@@ -195,7 +195,7 @@
   }  
   @media (min-width: 912px) {
           bg-curve::before {
-        background-image: url(images/bg-curve-desktop.svg);
+        background-image: url(../images/bg-curve-desktop.svg);
         background-repeat: no-repeat;
         background-size: cover;
         content: "";

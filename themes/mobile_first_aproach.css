@@ -18,7 +18,7 @@
   body {
       background-repeat: no-repeat;
       background-size: contain;
-      background: url("../../images/bg-mobile.png"), var(--color-very-dark-blue);
+      background: url("../images/bg-mobile.png"), var(--color-very-dark-blue);
       font-family: "Raleway", sans-serif;
       height: 100vh;
       width: 100%;
@@ -164,7 +164,7 @@
         background-repeat: no-repeat;
         background-size: 104%;
         background-size: contain;
-        background: url("../../images/bg-desktop.png"), var(--color-very-dark-blue);
+        background: url("../images/bg-desktop.png"), var(--color-very-dark-blue);
     }
     .container {
         display: flex;

@@ -3,6 +3,7 @@
       font-family: 'Red Hat Display';
       font-weight: 500;
       src: url('../fonts/RedHatDisplay-Medium.ttf');
+      
   }
 @font-face {
       font-display: swap;
@@ -90,7 +91,6 @@ header button {
 .btn-what:hover, .btn-what:focus-visible, footer button:hover, footer button:focus-visible {
       background-color: #B18BDD;
   }
-/*Article*/
 .number-container {
       align-items: center;
       display: flex;
