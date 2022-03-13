@@ -1,0 +1,16 @@
+h1::first-letter{
+      color: brown;
+      font-size: 70px;
+      font-style: bold;
+  }
+h1::before
+{
+      color:blue;
+      content: "This is";
+  }
+h1::after
+{
+      color: green;
+      content: "my page";
+      font-size: 50px;
+  }

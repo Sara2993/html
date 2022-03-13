@@ -1,0 +1,332 @@
+:root {
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --footer-gray: #f5f6f8;
+    --grayish-blue: hsl(201, 11%, 66%);
+    --hover-blue: hsl(233, 100%, 76%);
+    --hover-cyan: hsl(171, 70%, 51%);
+    --light-blue: hsl(233, 100%, 69%);
+    --social-media-gray: #4c545c;
+    --strong-cyan: hsl(171, 66%, 44%);
+  }
+* {
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+body {
+    background-image: url(./bg-header-mobile.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15px;
+    font-weight: 400;
+    height: 100vh;
+    width: 100%;
+  }
+button {
+    border-radius: 100px;
+    border: none;
+    box-shadow: -1px 7px 5px -2px rgba(107, 103, 107, 1);
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    height: 3.3rem;
+    margin-bottom: 1.5rem;
+    outline: none;
+    transition: 0.2s;
+    width: 100%;
+  }
+.btn-ios {
+    background-color: var(--strong-cyan);
+  }
+.btn-mac {
+    background-color: var(--light-blue);
+  }
+.btn-ios:hover {
+    background-color: var(--hover-cyan);
+  }
+.btn-mac:hover {
+    background-color: var(--hover-blue);
+  }
+.container {
+    color: var(--dark-grayish-blue);
+    margin: 20px;
+    text-align: center;
+  }
+.container img {
+    width: 100%;
+  }
+.container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+.container h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+.container h3 {
+    color: var(--grayish-blue);
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-bottom: 2.5rem;
+  }
+.container h4 {
+    color: var(--grayish-blue);
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-bottom: 2.5rem;
+  }
+.one {
+    margin-bottom: 8rem;
+    margin-top: 7rem;
+  }
+.one img {
+    margin-bottom: 15%;
+    width: 35%;
+  }
+.two {
+    margin-bottom: 4rem;
+  }
+.three {
+    margin-bottom: 10rem;
+  }
+.three img {
+    margin-bottom: 2rem;
+  }
+.three h3 {
+    color: var(--dark-grayish-blue);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+.three h4 {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+.five img {
+    margin-top: 0.5rem;
+  }
+.five {
+    margin-bottom: 8rem;
+  }
+.six {
+    margin-bottom: 6rem;
+  }
+.seven img {
+    margin-bottom: 2.5rem;
+    width: 15%;
+  }
+.seven h3 {
+    color: var(--dark-grayish-blue);
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+.seven {
+    margin-bottom: 8rem;
+  }
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+.eight img {
+    margin-bottom: 4rem;
+    width: 40%;
+  }
+.eight {
+    margin-bottom: 8rem;
+  }
+footer {
+    background-color: var(--footer-gray);
+    color: var(--dark-grayish-blue);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10rem;
+    padding: 2rem;
+    text-align: center;
+  }
+footer img {
+    margin-bottom: 2rem;
+    width: 15%;
+  }
+footer div ul {
+    list-style: none;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-decoration: none;
+  }
+footer div ul li {
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    transition: 0.3s;
+  }
+footer a {
+    color: var(--dark-grayish-blue);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+footer div ul li a:hover {
+    color: var(--strong-cyan);
+  }
+.social-media {
+    width: 60%;
+  }
+.social-media svg {
+    cursor: pointer;
+    fill: var(--social-media-gray);
+    margin-bottom: 0;
+    transition: 0.3s;
+  }
+.social-media a {
+    color: transparent;
+    font-size: 0;
+    line-height: 0;
+  }
+.social-media svg:hover {
+    fill: var(--strong-cyan);
+  }
+.twitter {
+    margin: 0 1.5rem;
+  }
+@media only screen and (min-width: 1100px) {
+  body {
+      background-image: url(./bg-header-desktop.png);
+      background-size: contain;
+    }
+  button {
+      display: inline-block;
+      margin-right: 1rem;
+      width: 30%;
+    }
+  .container {
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+  .eight {
+      flex-direction: row;
+    }
+  .eight img {
+      margin-right: 5rem;
+    }
+  footer .flex {
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+    }
+  footer img {
+      margin-bottom: 0;
+      width: 5%;
+    }
+  footer div ul {
+      column-count: 3;
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 0;
+      margin-left: 20%;
+      margin-top: 1.5rem;
+      text-align: start;
+      width: 100%;
+    }
+  footer div ul li {
+      margin-right: 3rem;
+      width: 20%;
+    }
+  .item {
+      height: 180px;
+      width: 30%;
+    }
+  .item-one img {
+      min-width: 600px;
+      transform: translateX(-5%);
+    }
+  .item-two {
+      margin: 0 5rem 6rem 5rem;
+    }
+  .one img {
+      margin-bottom: 3rem;
+      width: 8%;
+    }
+  .three {
+      align-items: center;
+      display: flex;
+      margin-left: 0;
+      margin-right: 0;
+      text-align: start;
+      width: 100%;
+    }
+  .seven img {
+      width: 15%;
+    }
+  .seven {
+      flex-direction: row;
+      width: 90%;
+    }
+  .seven h4 {
+      margin: 0 3rem 0 3rem;
+    }
+  .social-media {
+      float: right;
+      width: 25rem;
+    }
+  .social-media svg {
+      width: 1.5rem;
+    }
+  }
+@media only screen and (min-width: 430px) and (max-width: 750px) {
+  footer img {
+      width: 5rem;
+    }
+  .social-media {
+      width: 25rem;
+    }
+  .social-media svg {
+      width: 1.5rem;
+    }
+  }
+@media only screen and (min-width: 750px) and (max-width: 1100px) {
+  button {
+      font-size: 2rem;
+      height: 5rem;
+    }
+  .container {
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+    }
+  .container h1 {
+      font-size: 4rem;
+    }
+  .container h2 {
+      font-size: 3rem;
+    }
+  .container h3 {
+      font-size: 2rem;
+    }
+  .container h4 {
+      font-size: 1.5rem;
+    }
+  .eight img {
+      margin-bottom: 5rem;
+      width: 30%;
+    }
+  footer img {
+      width: 4rem;
+    }
+  footer div ul li {
+      font-size: 1.3rem;
+    }
+  .social-media {
+      width: 30rem;
+    }
+  .social-media svg {
+      width: 2rem;
+    }
+  .twitter {
+      margin: 0 2.5rem;
+    }
+  }
