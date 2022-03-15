@@ -106,23 +106,4 @@ main {
   .article-author-name, .article-date {
       font-size: 14px;
     }
-  .triangle {
-      display: none;
-    }
-  .share-overlay {
-      border-radius: 0 0 10px 10px;
-      box-shadow: 0;
-      gap: 1.5rem;
-      height: 90px;
-      justify-content: flex-start;
-      transform: translate(32px, 15px);
-      width: 330px;
-    }
-  .info-and-share.active .share {
-      bottom: 0;
-      position: absolute;
-      right: 0;
-      transform: translateY(5px);
-      z-index: 1;
-    }
-  }
+}
