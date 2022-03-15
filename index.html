@@ -3,43 +3,142 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> >
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./themes/index.css">
-  <title> index page</title>
-
+  <title>My index page</title>
 </head>
 
 <body>
-  <main>
-    <div class="container">
-
-      <section class="image-section">
-        <img src="./images/laptop.jpg" alt="">
-      </section>
-      <section class="text-section">
-        <div class="article-header">hello!! Welcome to my project page!!..
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>S</span>araswathi <span>M</span>ani</h1>
+          </a>
         </div>
-        <div class="article-desc">
-          i'm saraswathi.i make things look good.and i created many intractive projects&solutions</div>
-
-        <div class="info-and-share hidden">
-
-          <div class="article-info">
-            <div class="article-author-img">
-              <img src="./images/saraswathi.jpg.jpg" alt="">
-            </div>
-            <div class="name-and-date">
-              <div class="article-author-name">saraswathi m</div>
-            </div>
-            <a href="./index2.html" class="btn">my-projects</a>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#projects" data-after="Projects">my Projects</a></li>
+            <li><a href="#about" data-after="About">About me</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is.. <span></span></h1>
+        <h1>saraswathi.M <span></span></h1>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>my projects</h1>
+            <h2>Coding is Love</h2>
+            <p> Every project is an opportunity to learn, 
+              <br>to figure out problems and challenges,
+              <br> to invent and reinvent.A creative project is a moving target.
+               You never end up where you start</p>
+            <button class="btn"><a href="./index2.html" alt=" ">clickhere</a></button>
+          </div>
+          <div class="project-img">
+            <img src="./images/img-1.png" alt="img">
           </div>
         </div>
-      </section>
+       
+      </div>
+    </div>
+  </section>
 
-  </main>
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./images/saraswathi.jpg.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Front End Developer</h2>
+        <p>Front-end web development, also known as client-side development is the practice of producing HTML,<br>
+           CSS and JavaScript for a website or Web Application<br> so that a user can see and interact with them directly.<br>
+           The challenge associated with front end development is that <br>the tools and techniques used to create the front end of a website change<br> constantly and so the developer needs to constantly be aware of how the field is developing.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>6383901637</h2>
+            <h2>8489095104</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>sarswathi.mani@chainsys.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>1/28,a post office streat,thathur,anamalai</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>S</span>araswathi<span>M</span>ani</h1>
+      </div>
+      <h2>my complete index page</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+        </div>
+      </div>
+      <p> All rights reserved</p>
+    </div>
+  </section>
+  
+  <script src="./scripts/index.js"></script>
 </body>
 
 </html>
